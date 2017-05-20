@@ -2,7 +2,7 @@ language: php
 php:
   - 5.6
 before_script:
-  - mysql -e 'create database `dev_heycommunity`;'
+  - mysql -e 'create database `dev_laravel51`;'
   - composer self-update
   - composer install -n
   - cp .env.travis .env
